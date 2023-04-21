@@ -1,0 +1,81 @@
+<script>
+  /* function greet(name, callback) {
+  console.log('Hello ' + name);
+  callback();
+}
+
+function sayBye() {
+  console.log('Goodbye!');
+}
+
+greet('John', sayBye);
+
+
+  function gogi (meat, callback) {
+    console.log('취향이신 고기는'  + meat)
+    callback()
+  }
+
+  function 쌈장 () {
+    console.log('쌈장 드시나요')
+  }
+
+  gogi(' 돼지고기', 쌈장)
+
+
+  function tax (price, tax, call) {
+    price = price + price *tax
+    call(price)
+  }
+
+  tax (1233, 0.08, function(price) {
+    console.log(price)
+  })
+
+
+  function calculatePrice(price, discountFunc) {
+  const discount = discountFunc(price);
+  const finalPrice = price - discount;
+  console.log(`할인율: ${discount}, 최종 가격: ${finalPrice}`);
+}
+
+function discount10(DD) {
+  return DD * 0.1;
+}
+
+calculatePrice(10000, discount10); // 할인율: 1000, 최종 가격: 9000
+
+
+const message = function() {
+    console.log("This message is shown after 3 seconds");
+}
+
+setTimeout(message, 3000)
+
+
+ function d (sd,asd) {
+   let dd = sd + asd
+    console.log(dd)
+  }
+
+  ///
+ d(12, function(dd){
+    dd = Math.random() * 100
+  }) 
+  
+  function ss (dd){
+      dd
+  }
+
+*/
+  const 테스트 = (배열, 콜백함수) => {
+    for (const 값 of 배열) {
+      콜백함수(값)
+    }
+  }
+  const 함수 = function (콜백함수의_매개변수) {
+    console.log(`${콜백함수의_매개변수} 번째 ㅎㅇ`)
+  }
+
+  테스트([456,27,567,88], 함수)
+</script>
